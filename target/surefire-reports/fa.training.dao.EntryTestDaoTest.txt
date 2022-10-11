@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: fa.training.dao.EntryTestDaoTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 3.783 s - in fa.training.dao.EntryTestDaoTest

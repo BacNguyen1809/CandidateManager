@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: fa.training.dao.CandidateDaoTest
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 1, Errors: 4, Skipped: 1, Time elapsed: 3.502 s <<< FAILURE! - in fa.training.dao.CandidateDaoTest
+testSave1  Time elapsed: 0.094 s  <<< ERROR!
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at fa.training.dao.CandidateDaoTest.testSave1(CandidateDaoTest.java:43)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of UNIQUE KEY constraint 'UK_qybs7h9y2eg9cdtsac1f8kgoc'. Cannot insert duplicate key in object 'dbo.Cadidate'. The duplicate key value is (email1@gmail.com).
+	at fa.training.dao.CandidateDaoTest.testSave1(CandidateDaoTest.java:43)
+
+testSave2  Time elapsed: 0.016 s  <<< ERROR!
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at fa.training.dao.CandidateDaoTest.testSave2(CandidateDaoTest.java:55)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of UNIQUE KEY constraint 'UK_qybs7h9y2eg9cdtsac1f8kgoc'. Cannot insert duplicate key in object 'dbo.Cadidate'. The duplicate key value is (email2@gmail.com).
+	at fa.training.dao.CandidateDaoTest.testSave2(CandidateDaoTest.java:55)
+
+testSave3  Time elapsed: 0 s  <<< ERROR!
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at fa.training.dao.CandidateDaoTest.testSave3(CandidateDaoTest.java:65)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of UNIQUE KEY constraint 'UK_qybs7h9y2eg9cdtsac1f8kgoc'. Cannot insert duplicate key in object 'dbo.Cadidate'. The duplicate key value is (email3@gmail.com).
+	at fa.training.dao.CandidateDaoTest.testSave3(CandidateDaoTest.java:65)
+
+testUpdateRemark  Time elapsed: 0.016 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at fa.training.dao.CandidateDaoTest.testUpdateRemark(CandidateDaoTest.java:147)
+
+testUpdate  Time elapsed: 0.015 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at fa.training.dao.CandidateDaoTest.testUpdate(CandidateDaoTest.java:139)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at fa.training.dao.CandidateDaoTest.testUpdate(CandidateDaoTest.java:139)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of UNIQUE KEY constraint 'UK_4vucdnv7uxkltmkfd5doqwv7y'. Cannot insert duplicate key in object 'dbo.Cadidate'. The duplicate key value is (03315654).
+	at fa.training.dao.CandidateDaoTest.testUpdate(CandidateDaoTest.java:139)
+

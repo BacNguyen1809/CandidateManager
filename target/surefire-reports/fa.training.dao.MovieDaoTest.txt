@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: fa.training.dao.MovieDaoTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 6, Time elapsed: 9.022 s - in fa.training.dao.MovieDaoTest

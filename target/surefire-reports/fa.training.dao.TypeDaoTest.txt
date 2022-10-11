@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: fa.training.dao.TypeDaoTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 6, Time elapsed: 3.749 s - in fa.training.dao.TypeDaoTest

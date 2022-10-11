@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: fa.training.dao.CinemaRoomDetailDaoTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 2, Skipped: 4, Time elapsed: 3.763 s <<< FAILURE! - in fa.training.dao.CinemaRoomDetailDaoTest
+testSave1  Time elapsed: 3.693 s  <<< ERROR!
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at fa.training.dao.CinemaRoomDetailDaoTest.testSave1(CinemaRoomDetailDaoTest.java:37)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of UNIQUE KEY constraint 'UK_3lmod6b0cvclnmirbrqhd0kv6'. Cannot insert duplicate key in object 'dbo.CINEMA_ROOM_DETAIL'. The duplicate key value is (1).
+	at fa.training.dao.CinemaRoomDetailDaoTest.testSave1(CinemaRoomDetailDaoTest.java:37)
+
+testSave2  Time elapsed: 0.025 s  <<< ERROR!
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at fa.training.dao.CinemaRoomDetailDaoTest.testSave2(CinemaRoomDetailDaoTest.java:47)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of UNIQUE KEY constraint 'UK_3lmod6b0cvclnmirbrqhd0kv6'. Cannot insert duplicate key in object 'dbo.CINEMA_ROOM_DETAIL'. The duplicate key value is (2).
+	at fa.training.dao.CinemaRoomDetailDaoTest.testSave2(CinemaRoomDetailDaoTest.java:47)
+

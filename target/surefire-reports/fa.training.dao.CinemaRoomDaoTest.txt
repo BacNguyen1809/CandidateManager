@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: fa.training.dao.CinemaRoomDaoTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 2.418 s - in fa.training.dao.CinemaRoomDaoTest
